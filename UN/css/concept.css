@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+/*基本色*/
+:root {
+	--main-color:#FFFFFF;
+	--accent-color:#FFB2B2;
+	--dark-main-color:#7F7F7F;
+	--text-bright-color:#fff;
+	--icon-color:#fff;
+	--icon-bk-color:#ddd;
+}
+
+/*基本設定：ページ全体*/
+body{
+	margin: 0;
+	font-family: 'Inconsolata', monospace　;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* ヘッダー */
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header .container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(221,221,221,0.8);
+    z-index: 100;
+    border-bottom: solid 1px #ddd;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+/* ヘッダーA：　サイト名　*/
+.headA{
+	display: inline-block;
+	line-height: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: var(--main-color);
+
+}
+
+.logo{
+	width: 50px;
+	height: auto;
+	float: left;
+}
+
+/* ヘッダーnavi: ナビゲーションメニュー　*/
+
+nav{
+	float: right;
+}
+
+.nav li{
+	float: left;
+	width: 120px;
+	line-height: 50px;
+	color: #555;
+	text-align: right;
+	list-style: none;
+	
+}
+
+.nav a{
+	color: #555;
+}
+
+/* コンテンツ：　コンセプト記事　*/
+
+
+.post .container{
+	padding: 50px 10px;
+}
+
+
+.post .conB{
+	text-align: center;
+	
+}
+
+
+h1,h2{
+	font-family: “Times New Roman”, “游明朝”, YuMincho, “ヒラギノ明朝 ProN W3”, “Hiragino Mincho ProN”, “HG明朝E”, “メイリオ”, Meiryo, serif;
+
+}
+
+h1{
+	font-size: 18px;
+}
+
+h2{
+	padding-top: 30px;
+	font-size: 18px;
+}
+
+p{
+	padding-top: 20px;
+	font-size: 15px;
+}
+
+
+/*　フッター: サイト情報　*/
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	color: #555;
+	background-color: rgb(221,221,221);
+}
+
+footer .container{
+	padding: 40px 20px;
+}
+
+/* フッターA:　アドレス　*/
+.footA p{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+
+.footA img{
+	width: 8%;
+}
+
+.footA a{
+	color: inherit;
+	text-decoration: none;
+}
+
+/* フッターC：　コピーライト　*/
+.footC{
+	font-size: 12px;
+	text-align: center;
+	font-family: 'Inconsolata', monospace ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
